@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import './index.css'
-import products from '../../Images/products.jpg'
+import products from '../Images/products.jpg'
 
 const Products = () => {
     return (

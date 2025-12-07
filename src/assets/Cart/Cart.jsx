@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../Header/Header'
-import cart from '../../Images/cart.jpg'
+import cart from '../Images/cart.jpg'
 import './Cart.css'
 
 const Cart = () => {
