@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import Cookies from 'js-cookie'
-import logo from '../images/logo-vsk-incl-e.png'
+import logo from '../../Images/logo-vsk-incl-e.png'
 import './Header.css'
 
 const Header = props => {
