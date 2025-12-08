@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 import logo from '../../Images/logo-vsk-incl-e.png'
 import './Header.css'
 
@@ -9,20 +9,21 @@ const Header = () => {
       <Link to="/"> <img src={logo} alt="logo" className='website-logo'/> </Link>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <Link to="/products">Products</Link>
+          <NavLink to="/products">Products</NavLink>
         </li>
         <li>
-          <Link to="/cart">Cart</Link>
+          <NavLink to="/cart">Cart</NavLink>
         </li>
         <li>  
-          <Link to="/about">About</Link>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
+        <button type="button" className='logout-button'>Logout</button>
       </ul>
     </nav>
   )
