@@ -1,11 +1,9 @@
 import React from "react";
-import Header from "../Header/Header";
 import "./index.css";
 
 const About = () => {
   return (
     <>
-      <Header />
 
       <div className="about-container">
         <h1>About VSK-Ecommerce</h1>

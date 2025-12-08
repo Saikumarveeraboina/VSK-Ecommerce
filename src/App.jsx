@@ -6,20 +6,25 @@ import Products from './assets/Products/index'
 import About from './assets/About/index'
 import Contact from './assets/Contact/index'
 import Footer from './assets/Footer/index'
+import Header from './assets/Header/Header'
 
 const App = () => {
   return (
-    <>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/cart' element={<Cart />} />
-        <Route path='/products' element={<Products />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes>
-      <Footer />
-    </>
+    <div className="app-layout">
+      <Header />
 
+      <main className="page-content">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+
+      <Footer />
+    </div>
   )
 }
 

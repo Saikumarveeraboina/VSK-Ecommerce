@@ -1,5 +1,24 @@
-.App {
-    background-color: #fefefe;
-    height: 100%;
-    width: 100%;
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+}
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* MAIN FIX */
+.content, 
+.page-content, 
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }

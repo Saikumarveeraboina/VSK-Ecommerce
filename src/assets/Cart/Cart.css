@@ -1,11 +1,21 @@
+.cart-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.cart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .cart {
-    padding: 20px;
-    height: 400px;
-    width: 400px;
+  padding: 20px;
+  height: 400px;
+  width: 400px;
 }
-div .cart-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+
