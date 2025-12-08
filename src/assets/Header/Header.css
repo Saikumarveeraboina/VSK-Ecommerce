@@ -92,12 +92,16 @@ nav .menu span {
 
   nav ul li {
     width: 100%;
+    margin: 0;
+    padding: auto;
   }
 
   nav ul li a {
     width: 100%;
     display: block;
-    padding: 8px 5px;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
   }
 
   nav ul li a:not(.active):hover {
@@ -107,15 +111,17 @@ nav .menu span {
   /* Mobile active style */
   .active {
     background-color: transparent !important;
-    color: #3b82f6;
+    color: #e19b0f;
     padding: 0;
-    font-weight: bold;
+    margin: 0;
+    font-weight: 400;
   }
 
   .logout-button {
     background: transparent;
     padding: 0;
     color: #ef4444;
+    font-size: 18px;
   }
 }
 
