@@ -57,6 +57,16 @@ const Header = props => {
                 Cart
               </Link>
             </li>
+            <li className="nav-menu-item">
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+            </li>
+            <li className="nav-menu-item">
+              <Link to="/contact" className="nav-link">
+                Contact
+              </Link>
+            </li>
           </ul>
           <button
             type="button"
