@@ -10,7 +10,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import './index.css'
 
 const Header = () => {
-  const phoneNumber = '919246805933'
+  const phoneNumber = '7780601401'
   const message = 'Hi, I want to know about this college ?'
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
     message,
